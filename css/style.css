@@ -1,0 +1,37 @@
+.container-titulo{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background: rgb(56, 49, 49);
+    font-size: 100px;
+    justify-content: center;
+    
+    
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.container-principal {
+    background: #22bfc1;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    margin: 0 auto;      
+    background-image: url("/img/close-up-notebook-with-list-desk-1024x683.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center center;
+}
+.imagem{
+    border-radius: 20px;
+    opacity: 70%;
+    
+}
+.container div {
+    background: #22bfc1;     
+    margin: 8px 4px;
+    font-size: 1em;
+    color: rgb(162, 24, 24);
+}
