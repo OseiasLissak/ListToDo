@@ -1,3 +1,6 @@
+html{
+    background-color: rgb(56, 49, 49);
+}
 .container-titulo{
     display: flex;
     width: 100%;
@@ -5,33 +8,49 @@
     background: rgb(56, 49, 49);
     font-size: 100px;
     justify-content: center;
-    
-    
+    align-items: center;
+    margin-bottom: 20px;
 }
 h1{
+    display: flex;
     color: rgb(255, 255, 255);
     text-align: center;
 }
 .container-principal {
     background: #22bfc1;
-    width: 100%;
+    width: 80%;
     display: flex;
-    height: 100vh;
+    height: 75vh;
     margin: 0 auto;      
     background-image: url("/img/close-up-notebook-with-list-desk-1024x683.webp");
     background-repeat: no-repeat;
     background-size: cover;
-
-    background-position: center center;
-}
-.imagem{
     border-radius: 20px;
-    opacity: 70%;
-    
+    background-position: center center;
+    opacity: 0.8;
+    justify-content: center;
+    flex-flow: row wrap;
 }
-.container div {
-    background: #22bfc1;     
-    margin: 8px 4px;
-    font-size: 1em;
-    color: rgb(162, 24, 24);
+#tarefas{
+    display: flex;
+    width: 500px;
+    height: 40px;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+#botao{
+    width: 70px;
+    height: 45px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgb(20, 155, 58);
+    font-size: 20px;
+}
+.lista-tarefas{
+    display: flex;
+    justify-content: center;
+    
 }
