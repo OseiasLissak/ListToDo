@@ -49,8 +49,7 @@ h1{
     background-color: rgb(20, 155, 58);
     font-size: 20px;
 }
-.lista-tarefas{
-    display: flex;
-    justify-content: center;
-    
+#lista-tarefas{
+    display: block;
 }
+
