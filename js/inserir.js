@@ -7,8 +7,6 @@ botaoInserir.addEventListener ("click", function(event){
 
 adicionaNaLista(tarefaInserida);
 
-document.querySelector("#tarefas").reset();
-
 });
 
 
@@ -20,6 +18,8 @@ function adicionaNaLista(tarefaInserida){
 
     li.textContent = tarefaInserida.value;
     ol.appendChild(li)
+
+    tarefaInserida.value = " ";
 };
 
 

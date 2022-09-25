@@ -57,8 +57,18 @@ h1{
     margin: 0 auto;
     background-color: #22bfc1;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
 }
 li{
     padding: 20px;
+}
+#texto-insira{
+   margin: 25px;
+   font-size: 30px;
+}
+.container-footer{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin: 40px;
 }
